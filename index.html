@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Snake</title>
+    <link rel="icon" type="image/png" href="snake.jpg" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+    <script src="script.js" defer></script>
+</head>
+
+<body onload="createBoard()">
+    <h1>Snake Game</h1>
+    <div class="frame">
+        <div class="board"></div>
+    </div>
+
+    <h3>Length:<b id="length">5</b></h3>
+    <h3>Best: <b id="best">0</b> </h3>
+
+    <div id="popup" class="popup">
+        <div id="popup-content" class="popup-content">
+            <p id="popup-message"></p>
+            <button id="play-again">Play Again</button>
+        </div>
+    </div>
+
+</body>
+
+</html>
